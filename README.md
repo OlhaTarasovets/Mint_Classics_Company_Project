@@ -1,13 +1,44 @@
-## Project Scenario
+## Mint Classics Company: Warehouse Optimization Report
+### Executive Summary
+Mint Classics Company is evaluating the closure of one of its storage facilities while maintaining efficient operations and timely customer service. This report provides insights based on warehouse profitability, turnover ratios, stock-to-demand ratios, and sales trends to support data-driven decision-making.
+## 1. Warehouse Analysis
+### Profitability & Turnover
+-	East Warehouse: Highest revenue ($3.72M) and profit ($1.47M), but also the highest inventory levels.
 
-Mint Classics Company, a retailer of classic model cars and other vehicles, is looking at closing one of their storage facilities. 
+-	South Warehouse: Lowest inventory and moderate profit ($672K), with the best turnover ratio (5.92).
 
-To support a data-based business decision, they are looking for suggestions and recommendations for reorganizing or reducing inventory, while still maintaining timely service to their customers. For example, they would like to be able to ship a product to a customer within 24 hours of the order being placed.
+-	North & West Warehouses: Moderate profitability and turnover ratios ranging from 4.14 to 4.47.
 
-### Project Objectives
+### Stock-to-Demand Ratio
+-	East Warehouse: Highest stock-to-demand ratio (164.5), indicating overstocking.
 
-1. Explore products currently in inventory.
+-	South Warehouse: Lowest stock-to-demand ratio (97.8), suggesting leaner inventory.
 
-2. Determine important factors that may influence inventory reorganization/reduction.
+-	West & North Warehouses: Stock-to-demand ratios between 148-150, reflecting moderate efficiency.
 
-3. Provide analytic insights and data-driven recommendations.
+## 2. Inventory vs. Sales
+### Product Performance
+#### *Fast-moving vs. Slow-moving*:
+  -	North (62%) and East (75%) warehouses store the highest proportion of slow-moving items.
+  -	South (leaner inventory) has a more balanced stock distribution.
+
+#### *Sales by Product Line*:
+  -	Classic Cars (34%) and Vintage Cars (22%) account for over half of total sales.
+  -	Planes, Motorcycles, and Trucks & Buses contribute smaller shares.
+## 3. Recommendations
+### Warehouse Optimization
+#### *Consider closing the South warehouse*:
+  -	While it has a high turnover ratio, it has the lowest overall revenue and profit.
+  -	Its lower stock-to-demand ratio suggests it can be absorbed into other warehouses.
+
+#### *Inventory Redistribution*:
+  -	Transfer excess stock from the East warehouse to other locations to optimize storage space.
+  -	Reduce slow-moving inventory in the North and East warehouses.
+### Product Line Adjustments
+
+-	Phase out low-demand items: Slow-moving products in the North and East warehouses should be considered for discontinuation.
+
+-	Optimize fast-moving products: Prioritize stocking Classic Cars and Vintage Cars in warehouses with high demand.
+
+## 4. Conclusion
+By closing the South warehouse and optimizing inventory across the remaining facilities, Mint Classics Company can maintain efficient operations while reducing costs. Redistribution of overstocked items and eliminating slow-moving products will further improve efficiency and profitability.
