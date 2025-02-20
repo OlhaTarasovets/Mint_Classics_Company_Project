@@ -1,0 +1,8 @@
+CREATE OR REPLACE VIEW all_warehouses AS
+SELECT * FROM north
+UNION
+SELECT * FROM east
+UNION
+SELECT * FROM west
+UNION
+SELECT * FROM south;
