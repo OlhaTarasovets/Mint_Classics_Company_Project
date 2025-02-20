@@ -13,27 +13,6 @@ FROM products_sales
 WHERE shippedDate IS NOT NULL
 GROUP BY warehouseName
 ORDER BY total_revenue ASC;
--- Slow-Moving Products Per Warehouse
-SELECT FLOOR(COUNT(DISTINCT productCode) * 0.1) AS offset_value
-FROM products_sales; -- to find OFFSET. OFFSET is 11
-
-SELECT SUM(quantityOrdered) AS total_sold
-FROM products_sales
-GROUP BY productCode
-ORDER BY total_sold
-LIMIT 1 OFFSET 11; -- bottom 10% of sales is under 883
--- Use this number(883) in HAVING clause to definy the worst-selling products
-SELECT
-	warehouseName,
-    productCode,
-    productName,
-    SUM(quantityOrdered) AS total_sold,
-    quantityInStock
-FROM products_sales
-WHERE shippedDate IS NOT NULL
-GROUP BY warehouseName, productCode, productName, quantityInStock
-HAVING total_sold <= 883
-ORDER BY total_sold ASC;
 -- Warehouse Profitability
 SELECT
 	warehouseName,
